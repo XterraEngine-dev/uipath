@@ -1,2 +1,141 @@
-# uipath
-Documentación y ejemplos para UIPATH 
+![UI PATH DOCS](https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2018/10/31357807_1839138736388008_2868925956297326592_n.png)
+
+# UI PATH DOCS
+
+### Tipo de software 
+**(R.P.A) ROBOTIC PROCESS AUTOMATION**
+
+### Lenguaje
+**Visual Basic**
+
+### Usos practicos
+
+* **Automatizar formularios**
+
+* **Transformacion de documentos excel ó csv**
+
+* **Web Scrapping**
+
+* **Macros con nivel de UI**
+
+---
+#### Tipos de proyectos
+
+1. **Process**
+   Proyecto con solo un proceso sequencial.
+
+2. **Library**
+   Sequencias de procesos empaquetadas para luego ser importadas en otro proyecto. 
+
+3. **Flowchart**
+   Flujo de trabajo para automatizar multiples procesos al mismo tiempo o sequencialmente.
+
+
+![1](https://northcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fomnicomgt-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!oQQxrbzYPU2rRBy5_MQVIYBbOmH4qYZHs_UrbzgfSHpNukui1WxRTZEfFeUsxNSZ%2Fitems%2F01GBSYEHFJA7TP3YPMVREJRWXKI7C257E7%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvb21uaWNvbWd0LW15LnNoYXJlcG9pbnQuY29tQGQxODFmNDk1LTA4YWYtNDk1NC1hOTU4LWFmMDU1ZmVmZjdkZCIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1NDA5MTU4NDAiLCJleHAiOiIxNTQwOTM3NDQwIiwiZW5kcG9pbnR1cmwiOiJvMXZNU0gwbVR1MDlPaktVVU1TZ3pvRkhHNE9YSndQakpyV3BsMmVKUFRBPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTE5IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJZVGszWlRsa09XVXRNekJoTlMwM01EQXdMVFJoTXpJdE9XUTJZbVV6WXpOaE0yWTMiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWVdRek1UQTBZVEV0WkRoaVl5MDBaRE5rTFdGaU5EUXRNV05pT1daall6UXhOVEl4IiwibmFtZWlkIjoiMCMuZnxtZW1iZXJzaGlwfHVybiUzYXNwbyUzYWFub24jYjZjNDg2M2Y3Y2U0OWQzZWU2YjU2MzQwMjEyZWExZTRjMjFmMGQ3ZTVkOGMwYTI0NTMzYmRlM2ZkN2E4NTQ5NCIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfHVybiUzYXNwbyUzYWFub24jYjZjNDg2M2Y3Y2U0OWQzZWU2YjU2MzQwMjEyZWExZTRjMjFmMGQ3ZTVkOGMwYTI0NTMzYmRlM2ZkN2E4NTQ5NCIsInNoYXJpbmdpZCI6Ik5tYWozUDl6NkVXY25GclJDa1BkTUEiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMiJ9.RGNFVEpaV1lxczJlUWRhU0dKV2JyZU9xZFh3TjI5ZGVydEtDRnNEK3JTZz0&encodeFailures=1&width=681&height=616&srcWidth=&srcHeight=)
+
+
+
+
+
+---
+
+#### Herramientas del IDE
+
+
+#### **Design**
+1. **Crear nuevos proyectos**
+   Inicia nuevos proyectos como: Process, Flowchart, Library.
+2. **Guardar proyecto**
+   Guarda el progreso en el IDE.
+3. **Manage Packages**
+   Administrar integraciones con programas de terceros como excel.
+4. **Recording**
+   Grabar proceso mediante las interacciones del usuario.
+5. **Screen Scraping**
+   Obtener elementos de la pantalla para poder interactuar en un proceso como el campo vacio en un formulario.
+6.  **Data Scraping**
+   Genera un listado de lementos con los que se le indica interactuar como una lista de amazon.
+7. **User Events**
+   Grabar entrada de perifericos como clicks en pantalla o escritura.
+8. **UI Explorer**
+   Ver elementos de programas de terceros.
+9. **Remove Unused Variables**
+   Eliminar variables que no esten en uso.
+10. **Export to Excel**
+   Exportar el flujo de trabajo a un excel para ver todos los procesos.
+11. **Publish**
+   Publicar localmente una version del flujo de trabajo para poder ejecutarlo en segundo plano.
+
+![2](https://northcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fomnicomgt-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!oQQxrbzYPU2rRBy5_MQVIYBbOmH4qYZHs_UrbzgfSHpNukui1WxRTZEfFeUsxNSZ%2Fitems%2F01GBSYEHFZB3CAUW6MQ5CJIWNIPF4BIQGS%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvb21uaWNvbWd0LW15LnNoYXJlcG9pbnQuY29tQGQxODFmNDk1LTA4YWYtNDk1NC1hOTU4LWFmMDU1ZmVmZjdkZCIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1NDA5MTYzOTQiLCJleHAiOiIxNTQwOTM3OTk0IiwiZW5kcG9pbnR1cmwiOiJvMXZNU0gwbVR1MDlPaktVVU1TZ3pvRkhHNE9YSndQakpyV3BsMmVKUFRBPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTE5IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJNekUzWmpsa09XVXRZVEF5WkMwM01EQXdMVFJoTXpJdE9UUTNNekV4TXpBM1pURmwiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWVdRek1UQTBZVEV0WkRoaVl5MDBaRE5rTFdGaU5EUXRNV05pT1daall6UXhOVEl4IiwibmFtZWlkIjoiMCMuZnxtZW1iZXJzaGlwfHVybiUzYXNwbyUzYWFub24jNWM1MGIzZjQ4NmYxMmZjZTZiNTJiODJhZmFjZjM5ZTlmZTg2ZTE2Yjc0ZDdiZjIyMWQ4YmJjY2Q3YjBiZGU2ZiIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfHVybiUzYXNwbyUzYWFub24jNWM1MGIzZjQ4NmYxMmZjZTZiNTJiODJhZmFjZjM5ZTlmZTg2ZTE2Yjc0ZDdiZjIyMWQ4YmJjY2Q3YjBiZGU2ZiIsInNoYXJpbmdpZCI6ImQ2U0xZQXNhVTBlbUpFaS9WeFNySGciLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMiJ9.aGpob2ZIVUV5MGorcjNCaWdDUnFDMDJlaHRMOHlxVnNSRHVXZkE0a3l3dz0&encodeFailures=1&width=681&height=609&srcWidth=&srcHeight=)
+
+
+#### **Execute** 
+![6](https://northcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fomnicomgt-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!oQQxrbzYPU2rRBy5_MQVIYBbOmH4qYZHs_UrbzgfSHpNukui1WxRTZEfFeUsxNSZ%2Fitems%2F01GBSYEHC6XAOV3XJGMBGIYTQ54F4ZTCKY%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvb21uaWNvbWd0LW15LnNoYXJlcG9pbnQuY29tQGQxODFmNDk1LTA4YWYtNDk1NC1hOTU4LWFmMDU1ZmVmZjdkZCIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1NDA5MTc3MzgiLCJleHAiOiIxNTQwOTM5MzM4IiwiZW5kcG9pbnR1cmwiOiJvMXZNU0gwbVR1MDlPaktVVU1TZ3pvRkhHNE9YSndQakpyV3BsMmVKUFRBPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTE5IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJOems0TURsa09XVXRZekF6WkMwM01EQXdMVFJoTXpJdE9UVmxZVEl3TUdFMk9Ua3giLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWVdRek1UQTBZVEV0WkRoaVl5MDBaRE5rTFdGaU5EUXRNV05pT1daall6UXhOVEl4IiwibmFtZWlkIjoiMCMuZnxtZW1iZXJzaGlwfHVybiUzYXNwbyUzYWFub24jNWM1MGIzZjQ4NmYxMmZjZTZiNTJiODJhZmFjZjM5ZTlmZTg2ZTE2Yjc0ZDdiZjIyMWQ4YmJjY2Q3YjBiZGU2ZiIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfHVybiUzYXNwbyUzYWFub24jNWM1MGIzZjQ4NmYxMmZjZTZiNTJiODJhZmFjZjM5ZTlmZTg2ZTE2Yjc0ZDdiZjIyMWQ4YmJjY2Q3YjBiZGU2ZiIsInNoYXJpbmdpZCI6ImQ2U0xZQXNhVTBlbUpFaS9WeFNySGciLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMiJ9.UlVGamNLckJEeEpqSU8vL2l3Z1lqZ1hJeXp3WlB2RHZZbGQ0STlaV2hLbz0&encodeFailures=1&width=681&height=609&srcWidth=&srcHeight=)
+
+1. **Run**
+   Ejecutar flujo de trabajo.
+2. **Stop**
+   Parar ejecución del flujo de trabajo.
+3. **Debug**
+   Buscar errores en el proceso y parando en los breackpoints.
+4. **Step into**
+   Ejecutar y entrar al proceso.
+5. **Step over**
+   Ejecutar encima del proceso.
+6. **Validate**
+   Validar si no acurrieron errores.
+7. **Breakpoints**
+   Agregar punto de rumpura ( parar la ejecucion cuando llegue al punto indicado).
+8. **Slow slep**
+   Velocidad en tiempo en modo debug.
+9. **Options**
+   Guardar registros de ejecucion ( LOGS ).
+10. **Open Logs**
+   Abrir carpeta donde se encuentra los registros de las ejecuciones.
+
+#### **Activities** 
+
+![3](https://northcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fomnicomgt-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!oQQxrbzYPU2rRBy5_MQVIYBbOmH4qYZHs_UrbzgfSHpNukui1WxRTZEfFeUsxNSZ%2Fitems%2F01GBSYEHHTY5DW3U4LDVDLIVDWHX2GRAHK%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvb21uaWNvbWd0LW15LnNoYXJlcG9pbnQuY29tQGQxODFmNDk1LTA4YWYtNDk1NC1hOTU4LWFmMDU1ZmVmZjdkZCIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1NDA5MTg1MjAiLCJleHAiOiIxNTQwOTQwMTIwIiwiZW5kcG9pbnR1cmwiOiJvMXZNU0gwbVR1MDlPaktVVU1TZ3pvRkhHNE9YSndQakpyV3BsMmVKUFRBPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTE5IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJNemc0TVRsa09XVXRNREF4WVMwM01EQXdMVGN5TmpNdE16TTFOR1psWTJFMU5XWTAiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWVdRek1UQTBZVEV0WkRoaVl5MDBaRE5rTFdGaU5EUXRNV05pT1daall6UXhOVEl4IiwibmFtZWlkIjoiMCMuZnxtZW1iZXJzaGlwfHVybiUzYXNwbyUzYWFub24jNWM1MGIzZjQ4NmYxMmZjZTZiNTJiODJhZmFjZjM5ZTlmZTg2ZTE2Yjc0ZDdiZjIyMWQ4YmJjY2Q3YjBiZGU2ZiIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfHVybiUzYXNwbyUzYWFub24jNWM1MGIzZjQ4NmYxMmZjZTZiNTJiODJhZmFjZjM5ZTlmZTg2ZTE2Yjc0ZDdiZjIyMWQ4YmJjY2Q3YjBiZGU2ZiIsInNoYXJpbmdpZCI6ImQ2U0xZQXNhVTBlbUpFaS9WeFNySGciLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMiJ9.QUhaNkJoaWhFY2lnY3loa3Qrb0FkektNSmtmZEdSeEtYd1ZsMDNhbkhUWT0&encodeFailures=1&width=271&height=598&srcWidth=271&srcHeight=598)
+
+1. **Project**
+   Arbol del proyecto.
+
+
+2. **Snippets**
+   Elementos  para la automatización
+  
+   UI Automation | User Events| App Integration|System|Programming|Workflow|Orchestractor
+   ---------|----------|---------|---------|---------|---------|---------
+   Clicks | Click Trigger | Excel| File| Collection|Flowchart|Alerts
+   Keyboard | Keyboard Trigger | CSV| Clipboard|String| State Machine|API
+   Cheack | Click Imagge Trigger | Mail| Application| DataTable| Error Handling|Assets
+   Set text|Monitor Events||Enviroment|Debug|Cheackpoint | Jobs
+   ||||Power Shell| Execute|Control|Queues
+   ||||Dialog|GenericValue|Invoke| Process
+   
+
+#### **Diagrama del proyecto** 
+![4](https://northcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fomnicomgt-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!oQQxrbzYPU2rRBy5_MQVIYBbOmH4qYZHs_UrbzgfSHpNukui1WxRTZEfFeUsxNSZ%2Fitems%2F01GBSYEHGRZKTP524K25DZRMYA6JV5LF4C%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvb21uaWNvbWd0LW15LnNoYXJlcG9pbnQuY29tQGQxODFmNDk1LTA4YWYtNDk1NC1hOTU4LWFmMDU1ZmVmZjdkZCIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1NDA5MTk4NjYiLCJleHAiOiIxNTQwOTQxNDY2IiwiZW5kcG9pbnR1cmwiOiJvMXZNU0gwbVR1MDlPaktVVU1TZ3pvRkhHNE9YSndQakpyV3BsMmVKUFRBPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTE5IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJPREE0TWpsa09XVXRPREJpTmkwM01EQXdMVFJoTXpJdE9UUm1NMlpsTWpGak5tTTAiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWVdRek1UQTBZVEV0WkRoaVl5MDBaRE5rTFdGaU5EUXRNV05pT1daall6UXhOVEl4IiwibmFtZWlkIjoiMCMuZnxtZW1iZXJzaGlwfHVybiUzYXNwbyUzYWFub24jOTdkMTMwYzNiMGI0ZjY1NWY5YjM2ZGNiYjAwZmVkNDdiZTY4NGY2ZTVjZTg5NjE2NzQ1NWExMzc1YTdkYWQ1ZSIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfHVybiUzYXNwbyUzYWFub24jOTdkMTMwYzNiMGI0ZjY1NWY5YjM2ZGNiYjAwZmVkNDdiZTY4NGY2ZTVjZTg5NjE2NzQ1NWExMzc1YTdkYWQ1ZSIsInNoYXJpbmdpZCI6InZOWDN4ZDg3SDBTaGk4dG5aRVRrSXciLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMiJ9.d0VucmhRSlZxTFJDc1RpdElVTUd2WHYycXhPNlJHSC81Y203QlVjTWVBMD0&encodeFailures=1&width=681&height=609&srcWidth=&srcHeight=)
+##### Mapa del flujo de procesos todos los elementos de Snippets se pueden ingresar en el mapa.
+
+
+
+#### **Properties**
+![5](https://northcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fomnicomgt-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!oQQxrbzYPU2rRBy5_MQVIYBbOmH4qYZHs_UrbzgfSHpNukui1WxRTZEfFeUsxNSZ%2Fitems%2F01GBSYEHDECRPI7WL3ERDLXXOOAXDY6OW5%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvb21uaWNvbWd0LW15LnNoYXJlcG9pbnQuY29tQGQxODFmNDk1LTA4YWYtNDk1NC1hOTU4LWFmMDU1ZmVmZjdkZCIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1NDA5MjAxMDciLCJleHAiOiIxNTQwOTQxNzA3IiwiZW5kcG9pbnR1cmwiOiJvMXZNU0gwbVR1MDlPaktVVU1TZ3pvRkhHNE9YSndQakpyV3BsMmVKUFRBPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTE5IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJZbUk0TWpsa09XVXRaVEE1T1MwM01EQXdMVGN5TmpNdE16TmxZbVJsTTJZNU9UQTAiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWVdRek1UQTBZVEV0WkRoaVl5MDBaRE5rTFdGaU5EUXRNV05pT1daall6UXhOVEl4IiwibmFtZWlkIjoiMCMuZnxtZW1iZXJzaGlwfHVybiUzYXNwbyUzYWFub24jOTdkMTMwYzNiMGI0ZjY1NWY5YjM2ZGNiYjAwZmVkNDdiZTY4NGY2ZTVjZTg5NjE2NzQ1NWExMzc1YTdkYWQ1ZSIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfHVybiUzYXNwbyUzYWFub24jOTdkMTMwYzNiMGI0ZjY1NWY5YjM2ZGNiYjAwZmVkNDdiZTY4NGY2ZTVjZTg5NjE2NzQ1NWExMzc1YTdkYWQ1ZSIsInNoYXJpbmdpZCI6InZOWDN4ZDg3SDBTaGk4dG5aRVRrSXciLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMiJ9.WXV2cWt0TndUaUJWcDduNFlLK2hYcVNSOE00cEYwWTY2djdKSG5sL1FiST0&encodeFailures=1&width=283&height=609&srcWidth=283&srcHeight=609)
+##### Propiedades de los elementos seleccionados en el mapa del flujo de procesos.
+
+---
+
+
+
+### Ejecución background
+
+###### UIPATH ROBOT
+
+![7](https://northcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fomnicomgt-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!oQQxrbzYPU2rRBy5_MQVIYBbOmH4qYZHs_UrbzgfSHpNukui1WxRTZEfFeUsxNSZ%2Fitems%2F01GBSYEHE6KTMUFMINR5DJBUSCDOEYJVYK%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvb21uaWNvbWd0LW15LnNoYXJlcG9pbnQuY29tQGQxODFmNDk1LTA4YWYtNDk1NC1hOTU4LWFmMDU1ZmVmZjdkZCIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1NDA5MjAzMDYiLCJleHAiOiIxNTQwOTQxOTA2IiwiZW5kcG9pbnR1cmwiOiJvMXZNU0gwbVR1MDlPaktVVU1TZ3pvRkhHNE9YSndQakpyV3BsMmVKUFRBPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTE5IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJaV000TWpsa09XVXRPREF4TkMwM01EQXdMVFJoTXpJdE9XSmlOak16TkRBd01tVmsiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWVdRek1UQTBZVEV0WkRoaVl5MDBaRE5rTFdGaU5EUXRNV05pT1daall6UXhOVEl4IiwibmFtZWlkIjoiMCMuZnxtZW1iZXJzaGlwfHVybiUzYXNwbyUzYWFub24jOTdkMTMwYzNiMGI0ZjY1NWY5YjM2ZGNiYjAwZmVkNDdiZTY4NGY2ZTVjZTg5NjE2NzQ1NWExMzc1YTdkYWQ1ZSIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfHVybiUzYXNwbyUzYWFub24jOTdkMTMwYzNiMGI0ZjY1NWY5YjM2ZGNiYjAwZmVkNDdiZTY4NGY2ZTVjZTg5NjE2NzQ1NWExMzc1YTdkYWQ1ZSIsInNoYXJpbmdpZCI6InZOWDN4ZDg3SDBTaGk4dG5aRVRrSXciLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMiJ9.K2dDQzNuOTNhMCsrdENsbUFhTmVMSW9SUkxtOWxtVnFSdEM4MUlZcjA5dz0&encodeFailures=1&width=681&height=609&srcWidth=&srcHeight=)
+
+##### Ejecucion de procesos publicados sin necesidad de abrir el ide de desarrollo.
+
+# Enterprise
+### Ejecución en la nube
+###### UIPATH ORCHESTRACTOR
